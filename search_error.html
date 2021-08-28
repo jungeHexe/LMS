@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Search_error</title>
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:576px) and (min-width:320px)" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+               <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                    <div class="home">
+                        <form action="my_courses.html">
+                        <button><img  src="pictures/Vector.png"></button></form>
+                    </div> 
+               </div>
+               <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">     
+                    <div class="courses">
+                        <form action="courses.html">
+                        <button><img src="pictures/icons8-курсы-96 2.png"></button></form>
+                    </div>
+               </div>
+               <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <div class="profile">
+                        <form action="profile.html">
+                        <button class="button fiolet">Профиль</button></form>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section"> <!---вообще должно бы быть без section но когда убираешь все ломается-->
+        <div class="search">
+            <div class="container">
+                <h2 class="title">Каталог курсов</h2>
+                <div class="row">
+                   <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" ><form class="search_form">
+                            <input type="text">
+                        </form></div>
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"><button class="button fiolet">Искать</button></div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                    <div class="error">
+                        <label>Курс не найден</label>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-7">
+                    <div class="search_error">
+                        <img src="pictures/error1.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
